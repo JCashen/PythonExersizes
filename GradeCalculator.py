@@ -1,0 +1,13 @@
+print('Please enter your Maths mark')
+Math = input()
+print('Please enter your Chemistry mark')
+Chem = input()
+print('Please enter your Physics mark')
+Phys = input()
+z = (int(Math)*int(Chem)*int(Phys)/100)
+
+if z >= 70: print('A')
+elif z >= 60: print('B')
+elif z >= 50: print('C')
+elif z >= 40: print('D')
+else : print('You Failed')
