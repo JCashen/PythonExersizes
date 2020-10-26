@@ -1,9 +1,9 @@
 print('Please enter your Maths mark')
-Math = input()
+Math = int(input())
 print('Please enter your Chemistry mark')
-Chem = input()
+Chem = int(input())
 print('Please enter your Physics mark')
-Phys = input()
+Phys = int(input())
 z = (int(Math)*int(Chem)*int(Phys)/100)
 
 if z >= 70: print('A')
