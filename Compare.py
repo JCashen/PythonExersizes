@@ -1,4 +1,4 @@
-ATTEMPT 1
+#ATTEMPT 1
 print('input first word')
 str1 = input()
 print('input second word')
