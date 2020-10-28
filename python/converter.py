@@ -1,10 +1,9 @@
 print('type a number')
-integer = input()
+#integer = input()
 
 def num2word(integer):
 
-    while not (integer.isdigit()):
-        print('only numbers are allowed')
+    
 
     ones = {
         '0': '', '1': 'one ', '2': 'two ', '3': 'three ', '4': 'four ', '5': 'five ', '6': 'six ',
@@ -27,12 +26,13 @@ def num2word(integer):
 
 
     word = ''
-    integer_side = integer
-    integer_change = len(integer)
+    integer_side = str(integer)
+    integer_length = str(integer)
+    integer_change = len(integer_length)
     change = 3
 
+
     while integer_change > 0:
-        print(integer_change)
         if integer == '0':
             word = 'zero'
             break
@@ -59,6 +59,6 @@ def num2word(integer):
         
     return word
 
-conversion = num2word(integer)
+#conversion = num2word(integer)
 
-print(conversion)
+#print(conversion)
